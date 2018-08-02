@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Acme');
+
+.repositoryHeaderComponent{
+        width: 100%;
+}
+
+.repositoryButtons{
+width: 100%;
+}
+
+
+.repositoryButton{
+      margin: 4%;
+      border: none;
+      outline: none;
+      padding: 10px 16px;
+      /* background-color: #f1f1f1; */
+      cursor: pointer;
+
+      font-family: 'Acme', sans-serif;
+      font-size: 14px;
+
+      text-decoration : none;
+       color :black;
+}
+
+.active{
+    color: white;
+    /* background-color: #666; */
+    border-bottom: 2px solid #e36209;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+.repositoryFilters{
+    border-bottom: 1px solid gray;
+height: 72px;
+}
+
+.repositoryFilters > input[type=text]{
+    width: 34%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-right: -14px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+     position: relative;
+     float: left;
+     top:10px;
+     left: 10px;
+    font-family: 'Acme', sans-serif;
+}
+
+
+.repositoryFilters > select {
+    width: 15%;
+    padding: 12px 20px;
+    margin: 8px ;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    position: relative;
+    float: left;
+    top: 10px;
+    left: 29px;
+    font-family: 'Acme', sans-serif;
+}
+
+.button2{
+        position: relative;
+        float: left;
+        font-family: 'Acme', sans-serif;
+        background-color: #28a745;
+        color: white;
+        border: 2px solid #28a745;
+        height: 29px;
+        width: 11%;
+        left: 62px;
+        top: 28px;}
+.button2:hover {
+    background-color: #5ab76f;
+}
+
+
+@media only screen and (max-width: 360px) {
+    .repositoryHeaderComponent{
+        background-color: pink;
+    }
+    .repositoryFilters {
+    border-bottom: 1px solid gray;
+    height: 60px;
+}
+
+    .repositoryButton{
+          margin: 1%;
+          border: none;
+          outline: none;
+          padding: 2px 5px;
+          /* background-color: #f1f1f1; */
+          cursor: pointer;
+
+          font-family: 'Acme', sans-serif;
+          font-size: 14px;
+
+          text-decoration : none;
+           color :black;
+    }
+
+    .active{
+        color: white;
+        /* background-color: #666; */
+        border-bottom: 2px solid #e36209;
+    }
+
+    /* visited link */
+    a:visited {
+        color: black;
+    }
+
+    .repositoryFilters > input[type=text] {
+        width: 106px;
+        padding: 1px 0px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-sizing: border-box;
+        /* box-sizing: border-box; */
+        position: relative;
+        float: left;
+        top: 10px;
+        left: 4px;
+        font-family: 'Acme', sans-serif;
+    }
+
+    .repositoryFilters > select {
+        width: 20%;
+        padding: 1px 0px;
+        margin: 8px;
+        margin-left: 2px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        position: relative;
+        float: left;
+        top: 10px;
+        left: 17px;
+        font-family: 'Acme', sans-serif;
+    }
+
+    .button2 {
+        position: relative;
+        float: left;
+        font-family: 'Acme', sans-serif;
+        background-color: #28a745;
+        color: white;
+        border: 2px solid #28a745;
+        height: 29px;
+        width: 11%;
+        left: 31px;
+        top: 14px;
+    }
+    .repositoryName {
+    font-family: 'Acme', sans-serif;
+    color: rgb(0, 0, 238);
+    font-size: 1.2em;
+}
+.repositoryDescription {
+    font-family: 'Acme', sans-serif;
+    font-weight: normal;
+    font-size: 0.9em;
+}
+ul{
+    margin: -9px;
+}
+
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Kirang+Haerang');
+
+.header{
+    padding: 4px;
+    height: 11%;
+    background-color: grey;
+   }
+
+   .githubLogo {
+       float: left;
+       height: 90%;
+       z-index: 1;
+       position: relative;
+       left: 3px;
+   }
+
+.headline{
+    text-align: center;
+    font-family: 'Kirang Haerang', cursive;
+}
+
+@media only screen and (max-width: 360px) {
+.headline {
+    text-align: center;
+    font-family: 'Kirang Haerang', cursive;
+    font-size: 1.3em;
+}
+}

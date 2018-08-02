@@ -1,0 +1,18 @@
+.repositoryContainer{
+    position: relative;
+    float: left;
+    margin: 2%;
+
+
+     width: 63%;
+}
+
+@media only screen and (max-width: 360px) {
+    .repositoryContainer{
+        background-color: lightgreen;
+        float: left;
+        width: 100%;
+        margin: 0px;
+    }
+
+}
